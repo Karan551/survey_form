@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-image: url("./image/pinapple_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #f5f5f5;
+
+  /* opacity: 0.85; */
+}
+
+header {
+  margin-top: 1rem;
+  color: #000;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+
+}
+
+.description {
+  font-size: 1.125rem;
+  font-style: italic;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+h2{
+  margin-bottom: 0.75rem;
+}
+.text-center{
+    text-align: center;
+}
+
+.my-form {
+  color: #f5f5f5;
+  background-color: #333;
+  border: 1px solid #333;
+  padding: 2.5rem;
+  width: 60%;
+  margin: 1rem auto;
+  border-radius: 15px;
+  opacity: 0.85;
+}
+
+.form-group {
+  padding: 4px;
+  margin-bottom: 1rem;
+}
+
+
+form input,
+#dropdown,
+#feature {
+  display: inline-block;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  margin: 0.6rem 0.25rem;
+  font-size: 1.25rem;
+  border-radius: 10px;
+}
+
+form label {
+  font-size: 1.25rem;
+}
+
+.common-heading {
+  /* margin-top: 1.25rem; */
+  font-size: 1.25rem;
+}
+
+.form-group input[type="radio"],
+.radio-label {
+  display: inline;
+  width: auto;
+}
+
+/* Check container */
+.check-container div input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 0.5rem;
+  width: auto;
+  transform: scale(1.5);
+}
+
+.form-group .textarea-comment {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.54rem;
+  resize: vertical;
+  min-height: 150px;
+  font-size: 1.25rem;
+}
+
+/* btn css */
+.btn {
+  display: block;
+  padding: 1rem 1.5rem;
+  margin: 0.6rem 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  font-weight: 600;
+  transition: color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #3C40C6;
+  color: #f5f5f5;
+}
+
+/* Apply media queries */
+@media screen and (max-width:468px){
+  .my-form {
+    width: 70%;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+}
+
+/* @media screen and (max-width:1440px) {
+  .my-form {
+    width: 50%;
+    
+  }
+
+  .description {
+    font-size: 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1;
+  }
+} */
